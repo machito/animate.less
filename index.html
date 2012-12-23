@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Animate.less by machito</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Animate.less</h1>
+        <p>LESS animation library mixin for Bootstrap</p>
+
+        <p class="view"><a href="https://github.com/machito/animate.less">View the Project on GitHub <small>machito/animate.less</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/machito/animate.less/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/machito/animate.less/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/machito/animate.less">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Animate.less</h1>
+
+<p><em>Cross-browser CSS3 animation library mixin for Bootstrap</em></p>
+
+<p><code>animate.less</code>, originally created by <a href="https://github.com/daneden/animate.css" title="Dan Eden">Dan Eden</a>, is a bunch of cool, fun, and cross-browser animations for you to use as a Bootstrap mixin. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.</p>
+
+<h2>Usage</h2>
+
+<p>To use animate.less in your website, simply drop the stylesheet into your document's <code>&lt;head&gt;</code>, and add the class <code>animated</code> to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!</p>
+
+<p>You can do a whole bunch of other stuff with animate.less when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:</p>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#yourElement'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'animated bounceOutLeft'</span><span class="p">);</span>
+</pre></div>
+
+<p>You can change the duration of your animations, add a delay or change the number of times that it plays!</p>
+
+<div class="highlight"><pre><span class="nf">#yourElement</span> <span class="p">{</span>
+    <span class="o">-</span><span class="n">vendor</span><span class="o">-</span><span class="n">animation</span><span class="o">-</span><span class="n">duration</span><span class="o">:</span> <span class="m">3s</span><span class="p">;</span>
+    <span class="o">-</span><span class="n">vendor</span><span class="o">-</span><span class="n">animation</span><span class="o">-</span><span class="n">delay</span><span class="o">:</span> <span class="m">2s</span><span class="p">;</span>
+    <span class="o">-</span><span class="n">vendor</span><span class="o">-</span><span class="n">animation</span><span class="o">-</span><span class="n">iteration</span><span class="o">-</span><span class="n">count</span><span class="o">:</span> <span class="n">infinite</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><em>Note: be sure to replace "vendor" in the CSS with the applicable vendor prefixes (webkit, moz, ms, o)</em></p>
+
+<p><em>Note: Safari in Mountion Lion (OS 10.8) has a display glitch with the Flippers. They may not appear at all until the animation is completed, or the page may have other artifacting. One fix is to add overflow: hidden to the parent div.</em></p>
+
+<h2>License</h2>
+
+<p>Animate.less is licensed under the ☺ license. (<a href="http://licence.visualidiot.com/">http://licence.visualidiot.com/</a>)</p>
+
+<h2>Learn more</h2>
+
+<p>You can learn more about animate.css over at <a href="http://daneden.me/animate">http://daneden.me/animate</a>
+You can also get in touch via email (<a href="mailto:dan.eden@me.com">dan.eden@me.com</a>) or twitter (@_dte) if you need any help or have any issues.</p>
+
+<h2>Cheat Sheet</h2>
+
+<h4>Attention seekers:</h4>
+
+<p>flash
+bounce
+shake
+tada
+swing
+wobble
+wiggle
+pulse</p>
+
+<h4>Flippers (currently Webkit, Firefox, &amp; IE10 only):</h4>
+
+<p>flip
+flipInX
+flipOutX
+flipInY
+flipOutY</p>
+
+<h4>Fading entrances:</h4>
+
+<p>fadeIn
+fadeInUp
+fadeInDown
+fadeInLeft
+fadeInRight
+fadeInUpBig
+fadeInDownBig
+fadeInLeftBig
+fadeInRightBig</p>
+
+<h4>Fading exits:</h4>
+
+<p>fadeOut
+fadeOutUp
+fadeOutDown
+fadeOutLeft
+fadeOutRight
+fadeOutUpBig
+fadeOutDownBig
+fadeOutLeftBig
+fadeOutRightBig</p>
+
+<h4>Bouncing entrances:</h4>
+
+<p>bounceIn
+bounceInDown
+bounceInUp
+bounceInLeft
+bounceInRight</p>
+
+<h4>Bouncing exits:</h4>
+
+<p>bounceOut
+bounceOutDown
+bounceOutUp
+bounceOutLeft
+bounceOutRight</p>
+
+<h4>Rotating entrances:</h4>
+
+<p>rotateIn
+rotateInDownLeft
+rotateInDownRight
+rotateInUpLeft
+rotateInUpRight</p>
+
+<h4>Rotating exits:</h4>
+
+<p>rotateOut
+rotateOutDownLeft
+rotateOutDownRight
+rotateOutUpLeft
+rotateOutUpRight</p>
+
+<h4>Lightspeed:</h4>
+
+<p>lightSpeedIn
+lightSpeedOut</p>
+
+<h4>Specials:</h4>
+
+<p>hinge
+rollIn
+rollOut</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/machito">machito</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
