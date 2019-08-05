@@ -1,7 +1,7 @@
 # Animate.less
 *Cross-browser CSS3 animation library*
 
-If you're a web hipster, and you're already using Twitter's Bootstrap like a whore, you're gonna love this.
+If you're a web hipster, and you're already using Twitter's Bootstrap, you're gonna love this.
 
 `animate.less`, originally created by [Dan Eden](https://github.com/daneden/animate.css "Dan Eden"), is a bunch of cool, fun, and cross-browser animations converted into LESS for you to use in your Bootstrap projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 
